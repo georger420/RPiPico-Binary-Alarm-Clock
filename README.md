@@ -201,11 +201,11 @@ In addition to the actual alarm clock features described above, lots of other im
 
 ### Simplify circuit
 
-DHT-11 sensor and BMP180 could by replaced by single BME280 module. It would mean substantially changing the code for reading humidity, temperature and pressure.
+DHT-11 sensor and BMP180 could by replaced by single **BME280** module. It would mean substantially changing the code for reading humidity, temperature and pressure.
 
 ### Increase long-term acuracy
 
-RTC Modul DS1302 could be replaced by more accurate module DS3231. Again, changing code for reading time would be necesary.
+RTC Modul DS1302 could be replaced by more accurate module **DS3231**. Again, changing code for reading time would be necesary.
 
 ### Stopwatch
 
@@ -217,7 +217,7 @@ Using this device as a kitchen timer could also be a challenge, but very easy to
 
 ### Sense HAT
 
-Adding an IMU unit with a gyroscope, accelerometer, and magnetometer to the described device would create something somewhat similar to the first version of the Raspberry Pi Sense HAT. Such IMU could be module MPU-9250 containing all thre sensors. Cheaper but slightly complicated would be to add module MPU6050 with accelerometer and gyroscope, and magnetometer module HMC5883L. After that the only difference in functionality would be that the Sense HAT has a color LED display and joystick. You would have to accept a monochrome display, but instead of a joystick, an IR remote control could be used, offering more capabilities than the Sense HAT's joystick. Of course, the Python library for Sense HAT would not be usable!
+Adding an IMU unit with a gyroscope, accelerometer, and magnetometer to the described device would create something somewhat similar to the first version of the **Raspberry Pi Sense HAT**. Such IMU could be module **MPU-9250** containing all thre sensors. Cheaper but slightly complicated would be to add module **MPU6050** with accelerometer and gyroscope, and magnetometer module **HMC5883L**. After that the only difference in functionality would be that the Sense HAT has a color LED display and joystick. You would have to accept a monochrome display, but instead of a joystick, an IR remote control could be used, offering more capabilities than the Sense HAT's joystick. Of course, the Python library for Sense HAT would not be usable!
 
 ## Links
 
