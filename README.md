@@ -182,7 +182,7 @@ The currently built-in functions controlled by the remote control are as follows
 | RECALL | Alarm | 1 x plays alarm melody. |
 |  |  |  |
 
-***Comment:** To make the device independent of the Thonny IDE and possibly of the computer, rename the "binclock.py" file to "main.py". After that, the program will run automatically every time PICO is turned on.*
+***Comment:** To make the device independent of the Thonny IDE and possibly of the computer, rename the "binclock.py" file to **"main.py"**. After that, the program will run automatically every time PICO is turned on.*
 
 ## Functions missing for using device as real binary alarm clock
 
