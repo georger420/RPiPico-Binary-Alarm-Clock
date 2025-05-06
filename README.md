@@ -105,7 +105,6 @@ Getting the IR remote control to work could be the most complicated part. Basic 
     <tr><td>8</td><td>21</td></tr>
     <tr><td>9</td><td>23</td></tr>
     <tr><td>RECALL</td><td>28</td></tr>
-    <tr><td> </td><td> </td><td> </td></tr>
 </table>
 
 Once you have identified the numeric button codes of your remote control, change the codes in the **obsluha** function in [**binclock.py**](./src/binclock.py) program according to them. Ofcourse, only if it will be necessary.
