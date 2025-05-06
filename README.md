@@ -1,6 +1,3 @@
-# RpiPico_8x8_LED_matrix
-The complex training project including Raspberry Pi Pico, Micropython, MAX7219 LED matrix, RTC DS1302, DHT11, BMP180, passive buzzer and IR remote control.
-
 # Binary alarm clock with RTC and weather sensors
 
 The original goal of this project was to learn how to work with a matrix LED display and an RTC module. But, later on, other modules were added and it became a comprehensive learning project. 
